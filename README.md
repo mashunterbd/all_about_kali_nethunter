@@ -360,4 +360,4 @@ Next, let's upgrade our system. Type the following command and press Enter:
 ____
 
 # Problem Solving
-
+Commonly encountered problems and solutions are provided: <link> https://telegra.ph/Common-Problems-fix-01-29 </link>
