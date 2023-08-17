@@ -201,3 +201,36 @@ ____
 </details>
 
 ___
+<details>
+<summary>Installing NetHunter:</summary>
+
+- Installation requires installed Busybox (preferably in /system/xbin), also root rights.
+- Device selection for NetHunter.
+- <details>
+<summary>A small lyrical digression:</summary>
+
+I think that most of you know that mobile devices have 2 main manufacturers of processors: Qualcomm and MediaTek (MTK). Some have injections (you need a qucacld-2 driver) and HID, unlike devices with chips from MTK.
+
+Also, if you have not bought a device yet, then either choose the device where the core for NH is already ready, or order from the craftsmen for + -30 $ (2.2k₽), or after buying the device, assemble the core yourself.
+
+If you are a professional pentester, then I advise you to pay attention to the devices whose main OS is Linux. For example:
+- PinePhone (PDA or smartphone with Linux)
+- Librem 5 (PDA or smartphone with Linux)
+- Raspberry Pi (ARM based mini PC)
+- Orange Pi (ARM based mini PC)
+
+</details>
+
+- Recommended firmware.
+- Universal method for all devices.<details>
+<summary>What doesn't work without a kernel?</summary>
+
+1. Wifi/Bluetooth/RF adapters
+2. Bluetooth
+3. HID/RNDIS
+
+</details>
+
+- If you encounter errors, we recommend that you see [Troubleshooting and FAQ](troubleshooting-faq-link).
+
+</details>
