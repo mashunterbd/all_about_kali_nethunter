@@ -356,3 +356,8 @@ Next, let's upgrade our system. Type the following command and press Enter:
 
   
 </Details>
+
+____
+
+# Problem Solving
+
