@@ -54,7 +54,7 @@ About kali Nethunter GitHub Repository
 
 </details>
 <details>
-<summary>Support in the Kernel:</summary>
+<summary>Support in the Kernel*:</summary>
 
 - Network adapters support (rtl, broadcom - outdated, bluetooth)
 - HID, rndis support (possibly in conjunction with qcrndis)
@@ -67,27 +67,3 @@ About kali Nethunter GitHub Repository
 </details>
 
 ___
-
-<details>
-<summary><a name="requirements"></a>Installation Requirements:</summary>
-
-- A device with a minimum of 8GB of available storage space.
-- Custom recovery installed on your device.
-- A kernel with support for <a href="#kernel-support">* feature</a> (specific to your use case).
-- Familiarity with flashing devices.
-- Proficiency in working with Linux from the terminal.
-
-</details>
-
-<details>
-<summary><a name="kernel-support"></a>Support in the Kernel:</summary>
-
-- Network adapters support (rtl, broadcom - outdated, bluetooth)
-- HID, rndis support (possibly in conjunction with qcrndis)
-- Mass Storage: FunctionFS support
-- OTG (USB Power) support
-- HackRF support (if possible)
-- System V IPC support
-- Preferably without panic on oops
-
-</details>
