@@ -221,8 +221,9 @@ If you are a professional pentester, then I advise you to pay attention to the d
 
 </details>
 
-- Recommended firmware.
-- Universal method for all devices.<details>
+### Recommended firmware.
+### Universal method for all devices.
+<details>
 <summary>What doesn't work without a kernel?</summary>
 
 1. Wifi/Bluetooth/RF adapters
@@ -234,3 +235,124 @@ If you are a professional pentester, then I advise you to pay attention to the d
 - If you encounter errors, we recommend that you see [Troubleshooting and FAQ](troubleshooting-faq-link).
 
 </details>
+
+<details> <summary>General install process with magics</summary>  
+
+If you want to use Kali NetHunter, you must install Busybox  on your phone, Busybox  is not provided in the kernel file, if provided then check and no need to install separately. If you want you can install Busybox  from playstore or flash Busybox  zip through magisk. I would suggest flashing the zip! 
+
+## For Zip busybox: [![](https://img.shields.io/badge/Busybox-A12-blue)](https://github.com/masshuvo/Nethunter_kernel_Gauguinpro/releases/download/Busybox12/Busybox-for-Android-NDK_1.34.1_.13412.zip)
+https://github.com/Magisk-Modules-Repo/busybox-ndk
+https://github.com/meefik/busybox
+
+## Download and setup some Busybox  for your phone that works on your phone: 
+
+🖇️
+
+1.  https://play.google.com/store/apps/details?id=stericson.busybox
+
+2. https://play.google.com/store/apps/details?id=com.jrummy.busybox.installer
+
+3. https://play.google.com/store/apps/details?id=ru.meefik.busybox
+
+
+## After flashing Busybox  or after installing Busybox  from playstore and setup, you can check if Busybox  is installed on your phone with this application: 
+
+OnePlus's Kali Nethunter Rom includes busybox, Wifi framework, provided by developers. No need to install them separately if provided by developers. 
+
+🖇️ https://play.google.com/store/apps/details?id=com.joeykrim.rootcheck
+
+
+Once this is done, if you want to do wifi testing from your phone / use wifi adapter / bluetooth adapter / HID Device / Rucky / rubber ducky / USB HUMAN INTERFACE DEVICE / then flash the wifi framework zip using magisk 
+
+ Flashing this framework zip is mandatory for doing all kinds of hardware related testing through your mobile.
+ [![](https://img.shields.io/badge/W_F_W-v1-blue)](https://github.com/masshuvo/Nethunter_kernel_Gauguinpro/releases/download/wi-fi_framework/Wireless_Firmware_for_Nethunter.zip)
+ 
+## Link above 🖇️🖇️
+https://forum.xda-developers.com/t/module-wireless-firmware-for-nethunter.3857465/
+
+https://github.com/rithvikvibhu/nh-magisk-wifi-firmware
+
+## If you don't know how to flash Wi-Fi framework with magisk then you can watch this video of mine
+https://youtu.be/Ssgt1viwb2U
+
+
+## Download Kali Nethunter latest version 
+https://kali.download/nethunter-images/
+
+----------------------------------------------------------------------------------------
+after flash kali netHunter than you need to give permissionpermission to use kali netHunter: 
+
+<code> If there is no problem to open terminal and permission is already given in your Kali Nethunter then I don't need to follow this procedure separately!  That's why I said that there are some ROMs that are only for using Kali Nethunter, if you have downloaded and used any such ROM then you don't need to follow this procedure. </code>
+**Open kali terminal**
+
+
+**click Androidsu**
+
+``` echo "FIX NETHUNTER PERMISSIONS"
+
+echo "in Android 12"
+
+pm grant com.offsec.nethunter android.permission.ACCESS_FINE_LOCATION 
+
+pm grant com.offsec.nethunter android.permission.ACCESS_COARSE_LOCATION
+
+ pm grant com.offsec.nethunter android.permission.READ_EXTERNAL_STORAGE
+
+ pm grant com.offsec.nethunter android.permission.WRITE_EXTERNAL_STORAGE
+
+ pm grant com.offsec.nethunter com.offsec.nhterm.permission.RUN_SCRIPT 
+
+pm grant com.offsec.nethunter com.offsec.nhterm.permission.RUN_SCRIPT_SU
+
+ pm grant com.offsec.nethunter com.offsec.nhterm.permission.RUN_SCRIPT_NH
+
+ pm grant com.offsec.nethunter com.offsec.nhterm.permission.RUN_SCRIPT_NH_LOGIN
+
+clear
+
+sleep 3
+
+echo "done"
+```
+**copy and past : Entar.**
+
+After doing this you need to give internet permission.
+
+**Open Kali Terminal**
+
+**click Root**
+**Copy 👇 and Past and Enter:**
+
+```groupadd -g 3003 aid_inet && usermod -G nogroup -g aid_inet _apt
+
+echo 'APT::Sandbox::User "root";' > /etc/apt/apt.conf.d/01-android-nosandbox 
+```
+
+
+Before we start testing web applications' security, we need to be sure that we have all the necessary up-to-date tools. This recipe covers the basic task of keeping Kali Nethunter and its tools at their most recent versions.
+
+How to do it...
+
+Once you have a working instance of Kali Nethunter up and running, perform the following steps:
+
+Log in as a root on Kali Nethunter; the default password is "toor", without the quotes. You can also use su to switch the user or sudo to execute single commands if using a regular user is preferred instead of root.
+
+Open a terminal.
+
+Run the apt-get update command. This will download the updated list of packages (applications and tools) that are available to install.
+
+```apt-get update```
+
+Once the update is finished, run the following command to update non-system packages to their last stable version:
+
+```apt-get upgrade```
+
+When asked to continue, press Y and then press Enter.
+
+Next, let's upgrade our system. Type the following command and press Enter:
+
+```apt-get dist-upgrade```
+
+
+  
+</Details>
