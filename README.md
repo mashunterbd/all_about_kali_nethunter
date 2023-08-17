@@ -41,7 +41,7 @@ About kali Nethunter GitHub Repository
 <div align="center">
   <em>Join the journey of becoming a security explorer with NetHunter!</em>
 </div>
----------
+____
 
 <details>
 <summary>Installation Requirements:</summary>
@@ -63,6 +63,140 @@ About kali Nethunter GitHub Repository
 - HackRF support (if possible)
 - System V IPC support
 - Preferably without panic on oops
+
+</details>
+
+## [Official Kali NetHunter Kernels](https://stats.nethunter.com/kernels.html)
+
+<details>
+<summary>Xiaomi:</summary>
+
+- Poco Model
+- Pocophone
+- NetHunter-Enabled Kernel for Poco X3 Pro
+- NetHunter-Enabled Kernel for Poco X3 Pro
+- Poco X3 NFC / Poco X3
+- Poco X3
+- Poco x3 OSS
+- Poco F1 (beryllium) -1
+- Poco F3 (alioth/alioth-in)
+- Nethunter-enabled kernel for Poco x3 pro (vayu)
+
+</details>
+<details>
+<summary>Mi Model:</summary>
+
+- Xiaomi Mi 10i 5G (Gauguinpro)
+- Xiaomi Mi Max (hydrogen)
+- Xiaomi Mi 8 (dipper)
+- Mi A1
+- Xiaomi Mi 8 Pro (equuleus)
+- Xiaomi Mi 9T
+- Mi max 3(nitrogen)
+
+</details>
+<details>
+<summary>Redmi Model:</summary>
+
+- Xiaomi Redmi 8a / Redmi 8
+- Xiaomi Redmi 5 (rosy)
+- Xiaomi Redmi 5 Plus (vince)
+- Xiaomi Redmi 5 Plus / Note 5 India (vince)
+- Xiaomi Redmi 5 Plus / Note 5 (vince) India
+- Xiaomi Redmi 5 Plus (vince)
+- Xiaomi Redmi 4A (rolex)
+- Xiaomi Redmi 4A (rolex)
+- Xiaomi Redmi 4X (santoni)
+- Xiaomi Redmi 3S, 3X (land) +1
+- Xiaomi Redmi 3/3 Pro (ido)
+- Redmi 10 (selene)
+
+</details>
+
+<details>
+<summary>Note Model:</summary>
+
+- Xiaomi Redmi Note 10 Pro
+- Xiaomi Redmi Note 7 (lavender)
+- Xiaomi Redmi Note 7 stormhunter
+- Xiaomi Redmi Note 9 Pro
+- Xiaomi Redmi Note 7 Pro (violet)
+- Xiaomi Redmi Note 6 Pro (tulip)
+- Xiaomi Redmi Note 5 (whyred)
+- Xiaomi Redmi Note 5 (Android 10 + HID)
+- Xiaomi Redmi Note 5 Pro (Xiaomi Redmi Note 5 Global / China) (whyred)
+- Xiaomi Redmi Note 4 (nikel) Snapdragon
+- Xiaomi Redmi Note 4X (mido) Snapdragon
+- Redmi 8 Note
+- Redmi Note 8T
+- Redmi Note 8 Pro
+- Redmi Note 8 Pro Helium
+- Xiaomi Redmi Note 4X (mido) Snapdragon
+- Redmi Note 10 Pro (sweet)
+- Xiaomi Redmi Note 4 [Snapdragon] (mido)
+- Xiaomi Redmi Note 6 Pro
+
+</details>
+
+<details>
+<summary>One Plus Model:</summary>
+
+- One Plus 7
+- OnePlus 7T Pro
+- OnePlus 8/8pro/8T/9R (opkona)
+
+</details>
+
+<details>
+<summary>Samsung:</summary>
+
+- Samsung Galaxy Note 4 (SM-N910C)
+
+</details>
+
+<details>
+<summary>Lenovo Model:</summary>
+
+- Lenovo ZUK Z2 Plus (z2_plus)
+- Lenovo Vibe S1
+
+</details>
+
+<details>
+<summary>ZTE:</summary>
+
+- ZTE Axon Mini
+
+</details>
+
+<details>
+<summary>LeEco:</summary>
+
+- LeEco Cool 1 (C106/C103/R116)
+- LeEco Le 2 / LeEco Le S3 (X520 / X526 / X527 / X522)
+- Leeco Le 2 (s2) Android 11(R)
+
+</details>
+
+<details>
+<summary>Sony:</summary>
+
+- Sony Xperia Z
+- Sony Xperia XA1 Plus (Teak)
+
+</details>
+
+<details>
+<summary>Asus:</summary>
+
+- Asus Zenfone Max Pro M1
+
+</details>
+
+<details>
+<summary>HUAWEI/HONOR:</summary>
+
+- Huawei Honor Y7 2018/7C/7A Pro
 
 </details>
 
