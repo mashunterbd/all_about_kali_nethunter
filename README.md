@@ -66,6 +66,16 @@ ____
 
 </details>
 
+
+Suitable device for Kali nethunter: requirements
+- *Must Be Rooted & Hava an Custom Recovery Like: TWRP, OFX.
+- *Must be Qualcomm processor 
+- * Open source device
+- *Custom Kernel with Support external Wi-Fi adaptor + driver, HID Support, Wlan* Monitor Mode support and aircrack-ng -airodump-ng driver and petch installed & work fine.।
+
+
+Qualcomm soc is not necessary but generally better than MTK for those purposes, as some qualcomm devices can have their internal wifi module switched to monitor mode
+
 ## [Official Kali NetHunter Kernels](https://stats.nethunter.com/kernels.html)
 
 <details>
